@@ -206,3 +206,4 @@ print sess.run(tf.constant(12)*tf.constant(3))
 To check tensorflow version that you installed type:-
 $ python -c 'import tensorflow as tf; print(tf.__version__)'
 
+
