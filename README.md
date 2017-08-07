@@ -105,9 +105,13 @@ $ echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" 
 $ curl https://storage.googleapis.com/bazel-apt/doc/apt-key.pub.gpg | sudo apt-key add -
 
 $ sudo apt-get update
+
 $ sudo apt-get install bazel
+
 $ sudo apt-get upgrade bazel
+
 To check Bazel version just type in the terminal
+
 $ bazel version
 
 
