@@ -132,7 +132,6 @@ $ /usr/local/lib/python3.5/dist-packages
 
 
 
-
 The questions are as follow:- 
 Please specify the location of python. [Default is /usr/bin/python]:
 Please specify optimization flags to use during compilation when bazel option "--config=opt" is specified [Default is -march=native]:
