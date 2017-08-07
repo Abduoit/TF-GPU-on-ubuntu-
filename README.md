@@ -20,6 +20,7 @@ https://www.tensorflow.org/install/install_sources
 
 
 1- Install Required Packages
+
 $ cd ~
 
 $ sudo apt-get install openjdk-8-jdk git python-dev python3-dev python-numpy python3-numpy python-six python3-six build-essential python-pip python3-pip python-virtualenv swig python-wheel python3-wheel libcurl3-dev libcupti-dev
@@ -202,6 +203,7 @@ print(sess.run(hello))
 Hello, TensorFlow!
 print sess.run(tf.constant(12)*tf.constant(3))
 36
+
 To check tensorflow version that you installed type:-
 $ python -c 'import tensorflow as tf; print(tf.__version__)'
 
